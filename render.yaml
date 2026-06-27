@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: earner-agent
+    runtime: python
+    buildCommand: ""
+    startCommand: cd /app && uv run python web.py
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: PYTHON_VERSION
+        value: "3.13"

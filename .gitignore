@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+.uv/
+*.pyc
+.env
+config.json
+transactions/
+qr_codes/
